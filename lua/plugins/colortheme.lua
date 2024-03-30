@@ -1,11 +1,10 @@
 return {
 	{
-		'i3d/vim-jimbothemes',
+		"whatyouhide/vim-gotham",
 		priority = 1000,
 		init = function()
-			vim.cmd.colorscheme 'ironman_dark'
-			vim.cmd.hi 'Comment gui=none'
+			vim.cmd.colorscheme("gotham")
+			vim.cmd.hi("Comment gui=none")
 		end,
 	},
-
 }
